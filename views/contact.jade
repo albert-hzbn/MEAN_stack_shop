@@ -1,0 +1,17 @@
+extends layout
+
+block content
+    .container
+        h2 Contact Us
+            form(method="post",action="contact/send")
+                .form-goup
+                    label Name
+                    input.form-control(type="text",name="name",placeholder="Enter Name")
+                .form-goup
+                    label Email
+                    input.form-control(type="text",name="email",placeholder="Enter Email")
+                .form-goup
+                    label Message
+                    textarea.form-control(name="message",placeholder="Message")
+                br
+                button.btn.btn-default(type="submit") Submit

@@ -1,0 +1,22 @@
+.category-name {
+    font-size: 25px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.sidemenu-category {
+    background-color: #980000;
+    padding: 5px;
+    font-size: 15px;
+    color: whitesmoke;
+    width: 80%;
+    margin: 2px 0px 2px 0px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+@media (min-width: 768px){
+    .modal-dialog {
+        width: 400px;
+    }
+}
